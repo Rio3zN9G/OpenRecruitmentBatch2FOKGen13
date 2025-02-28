@@ -75,7 +75,7 @@ body {
 /* Siapa Saja yang Dapat Bergabung Section */
 .who-can-join {
     padding: 50px 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(-20deg, #000000, #8B0000 );
 }
 
 .who-can-join h2 {
@@ -87,6 +87,14 @@ body {
     font-size: 1rem;
     color: #ddd;
 }
+
+.faq {
+  background-color: #000000; /* Ubah sesuai warna yang diinginkan */
+    padding: 40px;
+    border-radius: 10px; /* Opsional: Tambahkan sudut melengkung */
+    position: relative;
+    z-index: 1;
+  }
 
 /* FAQ Section */
 .faq details {
@@ -318,7 +326,7 @@ footer p {
 }
 /* Timeline Section */
 .timeline {
-    background: linear-gradient(135deg, #000000, #8B0000);
+    background: linear-gradient(235deg, #000000, #8B0000);
     color: white;
     padding: 60px 20px;
     position: relative;
@@ -476,7 +484,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
-    background: linear-gradient(135deg, #600202, #c10909);
+    background: linear-gradient(-30deg, #00000, #c10909);
     color: white;
 }
 
@@ -547,4 +555,4 @@ footer p {
     .footer .instagram-link {
         font-size: 28px;
     }
-}
+    }
