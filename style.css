@@ -644,3 +644,7 @@ footer p {
     0% { box-shadow: 0 0 10px rgba(255, 69, 0, 0.7); }
     100% { box-shadow: 0 0 25px rgba(255, 69, 0, 1); }
 }
+
+a {
+  color: white;
+}
